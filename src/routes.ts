@@ -1,4 +1,5 @@
 import express from 'express';
+import NotificationControler from './controller/notification';
 
 
 
@@ -7,5 +8,6 @@ export const BoletoRouter = express.Router();
 //Boleto 
 //------------------------------------------------------------------------------
 
-BoletoRouter.get('/produtos/get', );
+BoletoRouter.post('/boleto', NotificationControler.BoletoNotification );
+BoletoRouter.post('/credito', );
 

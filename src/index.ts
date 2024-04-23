@@ -1,12 +1,14 @@
-import express, { json } from 'express';
+import express from 'express';
+import bodyParser from 'body-parser';
 import cors from 'cors'
 import { BoletoRouter } from './routes';
 
-const port: any  = process.env.PORT
+const port: any  = process.env.SERVE_PORT
 const serverUrl = process.env.SERVE_CONSULT
 
 const app = express();
-app.use(json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(BoletoRouter);
 

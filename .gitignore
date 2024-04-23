@@ -127,3 +127,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+src/integration/Authenticate/producao-449449-Cert21042023.p12
+src/integration/Authenticate/homologacao-449449-Cert21042023-H.p12

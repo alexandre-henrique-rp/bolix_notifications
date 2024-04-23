@@ -38,11 +38,11 @@ Esse é um servidor para tratar a notificação de pagamento Bolix da efi
 **terminal**
 
  ><code>yarn</code>
- ><code>yarn audit fix --force </code>
+ ><code>yarn audit fix --force</code>
  ><code>yarn outdated</code>
- ><code>yarn update</code>
+ ><code>yarn upgrade</code>
  ><code>yarn upgrade-interactive --latest</code>
- ><code>yarn update</code>
+ ><code>yarn upgrade</code>
 
 ou
 
